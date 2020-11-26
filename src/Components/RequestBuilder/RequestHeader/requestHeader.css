@@ -1,0 +1,13 @@
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.compagny-name {
+  display: flex;
+}
+.compagny-input {
+  width: 30vw;
+}

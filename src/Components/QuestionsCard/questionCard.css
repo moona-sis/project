@@ -1,0 +1,38 @@
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  align-items: center;
+}
+
+.question {
+  width: 20vw;
+  margin-left: 20px;
+}
+.select-type {
+  margin-right: 50px;
+  width: 20vw;
+}
+
+.question-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+.question-footer-left {
+  flex: 1;
+}
+
+.question-footer-right {
+  flex: 1;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.question-footer-content {
+  margin-left: 20px;
+}

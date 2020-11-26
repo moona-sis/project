@@ -1,0 +1,62 @@
+.our-services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 80%;
+  background-color: cadetblue;
+}
+.home-titles {
+  font-size: 40px;
+  font-weight: 700;
+}
+.services-img {
+  display: flex;
+  justify-content: space-between;
+  background-color: chartreuse;
+  width: 100%;
+  height: 30vh;
+}
+.service1 {
+  flex: 1;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chiffres-container {
+  display: flex;
+  justify-content: center;
+}
+.chiffres {
+  display: flex;
+  justify-content: space-around;
+  background-color: chartreuse;
+  width: 100%;
+}
+.chiffres-details {
+  margin-top: 50px;
+}
+.partner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nos-valeurs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  height: 50vh;
+}

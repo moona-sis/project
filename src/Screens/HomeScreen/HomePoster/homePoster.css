@@ -1,0 +1,41 @@
+.home-poster {
+  background-image: url("../../../assets/home-poster.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.poster-left {
+  width: 58%;
+  height: 100%;
+}
+
+.poster-right {
+  width: 42%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.poter-text {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.poster-title {
+  margin-top: 25vh;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+.poster-paragraph {
+  text-align: justify;
+}
