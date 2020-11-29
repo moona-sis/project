@@ -1,0 +1,6 @@
+.response {
+  position: relative;
+  top: 20vh;
+  display: flex;
+  justify-content: center;
+}

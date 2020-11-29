@@ -8,7 +8,7 @@ function AddRequestScreen() {
         <div>
             <Navbar/>
             <div className='container'>
-             <RequestBuilder/>
+             <RequestBuilder />
             </div>
 
         </div>

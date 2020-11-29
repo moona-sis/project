@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-header {
+  position: relative;
+  top: 10vh;
+  background-color: turquoise;
+  height: 30vh;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.photo-de-profil {
+  z-index: 1;
+}
+
+.profile-body {
+  margin-top: 20vh;
+}

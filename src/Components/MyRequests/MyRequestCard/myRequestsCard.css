@@ -1,0 +1,26 @@
+.cv-cards-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.cv-cards {
+  position: relative;
+  left: 20vw;
+  min-height: 100vh;
+  height: fit-content;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.cv-card {
+  border-radius: 6px;
+  height: 40vh;
+  box-shadow: -4px -4px 20px 1px rgba(0, 0, 0, 0.199);
+  width: 27%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8vh;
+  margin-left: 30px;
+}

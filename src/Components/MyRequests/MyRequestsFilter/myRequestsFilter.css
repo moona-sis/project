@@ -1,0 +1,29 @@
+.sidebar-filter {
+  position: fixed;
+  top: 10vh;
+  width: 20vw;
+  background-color: #c2c9cf;
+  height: fit-content;
+  min-height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.filters-inputs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+}
+.filter-inputs {
+  width: 17vw;
+  margin-top: 20px;
+  border-radius: 6px;
+  height: 5vh;
+}
+.filter-inputs:focus {
+  border: teal;
+}

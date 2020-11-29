@@ -1,6 +1,6 @@
 const initialState={
     formHeader:{
-        logo: '',
+        logo: null,
         compagnyName: '',
     },
     formTitle:{
@@ -9,16 +9,17 @@ const initialState={
     },
     cardQuestion:[{
         questionTitle: '',
-        questionType: 'question-courte',
+        questionType: 1,
         questionCourte: '',
         questionLongue: '',
         choixMultiple:'1',
         caseaCocher: '2',
+        telechargerFichier: null,
         date:null,
         heure:null,
         delete: false,
         obligatoire: false,
-        when: 'question-courte'
+       
     }]
 }
 

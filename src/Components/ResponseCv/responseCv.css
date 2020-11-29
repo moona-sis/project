@@ -1,0 +1,70 @@
+.cv-response {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.cv-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cv-img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vh;
+  height: 35vh;
+
+  border: teal solid 7px;
+}
+.cv-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 40vw;
+  background-color: rgba(226, 148, 4, 0.863);
+}
+.description-paragraph {
+  width: 80%;
+  margin-top: 10px;
+}
+.contact-candidate {
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  border-radius: 6px;
+  background-color: teal;
+  margin-bottom: 30px;
+}
+.exp-educ {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.experience {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: -4px -4px 10px 1px rgba(58, 58, 58, 0.151);
+}
+.educ {
+  width: 28vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: -4px -4px 10px 1px rgba(58, 58, 58, 0.151);
+}
